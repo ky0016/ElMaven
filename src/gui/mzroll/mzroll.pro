@@ -50,7 +50,7 @@ win32 {
 }
 
 
-LIBS +=  -lmaven -lpugixml -lneural -lcsvparser -lpls -lplog                  #64bit
+LIBS +=  -lmaven -lpugixml -lneural -lcsvparser -lpls -lplog -lErrorHandling                 #64bit
 macx {
     LIBS -= -lplog
 }
